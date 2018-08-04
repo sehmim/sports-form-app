@@ -1,0 +1,8 @@
+<% @messages.each do |message| %>
+    <div class="">
+        <div class="col-md-3">
+            <h2> <%= message.title %></h2>
+            <%= link_to "Join Topic", message, Class:"btn btn-info" %>
+        </div>
+    </div>
+<% end %>
